@@ -1,0 +1,4 @@
+source_a,source_b,shared_valid_subjects,scope
+disk,memory,363,valid subject hashes only; invalid identities unresolved
+disk,network,306,valid subject hashes only; invalid identities unresolved
+memory,network,119,valid subject hashes only; invalid identities unresolved

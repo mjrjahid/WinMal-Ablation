@@ -1,0 +1,41 @@
+{
+  "source": "network",
+  "input_path": "/nfs/fjahiduzzaman/thesis/Feedback-September/network_dataset_preprocessed_high_accuracy.xlsx",
+  "sha256_before": "d69d57fdc612433551deb3c1ee419178bbd868c8d4a8dbd9eda290c7a1c13464",
+  "rows": 707,
+  "families": 8,
+  "input_columns": [
+    "sha256_sample",
+    "avg_domain_len",
+    "mean_domain_entropy",
+    "n_public_service_domains",
+    "n_unique_tlds",
+    "n_public_ips",
+    "n_unique_ips",
+    "domains_per_conn",
+    "target"
+  ],
+  "input_rows": 707,
+  "input_families": 8,
+  "rows_removed": 0,
+  "families_removed": [],
+  "duplicate_rows_retained": 0,
+  "cohort_policy": "existing_workbook_all_rows_and_exact_labels",
+  "identifier_audit": {
+    "sha256_sample": {
+      "valid_rows": 707,
+      "invalid_rows": 0,
+      "unique_valid_hashes": 707,
+      "valid_hashes_with_multiple_context_labels": 0
+    }
+  },
+  "numeric_values_coerced_to_missing_in_model_only": {
+    "avg_domain_len": 0,
+    "mean_domain_entropy": 0,
+    "n_public_service_domains": 0,
+    "n_unique_tlds": 0,
+    "n_public_ips": 0,
+    "n_unique_ips": 0,
+    "domains_per_conn": 0
+  }
+}

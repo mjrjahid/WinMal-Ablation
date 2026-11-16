@@ -1,0 +1,47 @@
+{
+  "source": "disk",
+  "input_path": "/nfs/fjahiduzzaman/thesis/Feedback-September/disk_dataset_preprocessed_high_accuracy.xlsx",
+  "sha256_before": "fb92a04cca498ac347269461f5bfeb4394de69740418a07e39af337d4e1f3595",
+  "rows": 3434,
+  "families": 24,
+  "input_columns": [
+    "sha256",
+    "size",
+    "type",
+    "parent_sha256",
+    "parent_size",
+    "parent_type",
+    "parent_imphash",
+    "file_name",
+    "file_path",
+    "target"
+  ],
+  "input_rows": 3443,
+  "input_families": 25,
+  "rows_removed": 9,
+  "families_removed": [
+    "doppelpaymer"
+  ],
+  "duplicate_rows_retained": 0,
+  "cohort_policy": "Disk families with >= 10 input records; every record in each eligible family retained",
+  "identifier_audit": {
+    "sha256": {
+      "valid_rows": 3434,
+      "invalid_rows": 0,
+      "unique_valid_hashes": 2331,
+      "valid_hashes_with_multiple_context_labels": 118
+    },
+    "parent_sha256": {
+      "valid_rows": 3434,
+      "invalid_rows": 0,
+      "unique_valid_hashes": 795,
+      "valid_hashes_with_multiple_context_labels": 0
+    }
+  },
+  "numeric_values_coerced_to_missing_in_model_only": {
+    "size": 0,
+    "parent_size": 0
+  },
+  "minimum_family_records": 10,
+  "selection_scope": "in-memory evaluation view only; source workbook bytes unchanged"
+}

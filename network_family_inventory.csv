@@ -1,0 +1,9 @@
+source,family,rows,unique_valid_subjects,invalid_subject_rows,unique_object_hashes
+network,asyncrat,36,36,0,36
+network,lumma,98,98,0,98
+network,phorpiex,55,55,0,55
+network,quasarrat,21,21,0,21
+network,redline,267,267,0,267
+network,revil,23,23,0,23
+network,vidar,47,47,0,47
+network,wannacry,160,160,0,160

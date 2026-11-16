@@ -1,0 +1,48 @@
+source,experiment,seed,model,status,detail,fold
+disk,subject_all_features,42.0,Logistic Regression,completed,,
+disk,subject_all_features,42.0,Random Forest,completed,,
+disk,subject_all_features,42.0,Gradient Boosting,completed,,
+disk,subject_all_features,42.0,SVM (RBF),completed,,
+disk,subject_all_features,42.0,KNN,completed,,
+disk,subject_all_features,42.0,Naive Bayes,completed,,
+disk,subject_all_features,42.0,CatBoost,completed,,
+disk,row_all_features,42.0,Logistic Regression,completed,,
+disk,row_all_features,42.0,Random Forest,completed,,
+disk,subject_parent_only,42.0,Logistic Regression,completed,,
+disk,subject_parent_only,42.0,Random Forest,completed,,
+disk,subject_child_only,42.0,Logistic Regression,completed,,
+disk,subject_child_only,42.0,Random Forest,completed,,
+disk,subject_without_imphash,42.0,Logistic Regression,completed,,
+disk,subject_without_imphash,42.0,Random Forest,completed,,
+disk,component_all_features,42.0,Logistic Regression,completed,,
+disk,component_all_features,42.0,Random Forest,completed,,
+memory,subject,,,blocked_invalid_group_identifiers,"{""parent_sha256"": 879}",
+memory,object_all_features,42.0,Logistic Regression,completed,,
+memory,object_all_features,42.0,Random Forest,failed_shap,RuntimeError('shap worker failed: exit status 1; last_stage=shap_calculation; log=/nfs/fjahiduzzaman/thesis/Feedback-September/results/existing_disk_min10_v5_20833/memory/object_all_features/seed_42/rf/native_shap/fold_1/worker.log'),1.0
+memory,object_all_features,42.0,Random Forest,failed_shap,RuntimeError('shap worker failed: exit status 1; last_stage=shap_calculation; log=/nfs/fjahiduzzaman/thesis/Feedback-September/results/existing_disk_min10_v5_20833/memory/object_all_features/seed_42/rf/native_shap/fold_2/worker.log'),2.0
+memory,object_all_features,42.0,Random Forest,failed_shap,RuntimeError('shap worker failed: exit status 1; last_stage=shap_calculation; log=/nfs/fjahiduzzaman/thesis/Feedback-September/results/existing_disk_min10_v5_20833/memory/object_all_features/seed_42/rf/native_shap/fold_3/worker.log'),3.0
+memory,object_all_features,42.0,Random Forest,failed_shap,RuntimeError('shap worker failed: exit status 1; last_stage=shap_calculation; log=/nfs/fjahiduzzaman/thesis/Feedback-September/results/existing_disk_min10_v5_20833/memory/object_all_features/seed_42/rf/native_shap/fold_4/worker.log'),4.0
+memory,object_all_features,42.0,Random Forest,failed_shap,RuntimeError('shap worker failed: exit status 1; last_stage=shap_calculation; log=/nfs/fjahiduzzaman/thesis/Feedback-September/results/existing_disk_min10_v5_20833/memory/object_all_features/seed_42/rf/native_shap/fold_5/worker.log'),5.0
+memory,object_all_features,42.0,Random Forest,failed_shap,RuntimeError('shap worker failed: exit status 1; last_stage=shap_calculation; log=/nfs/fjahiduzzaman/thesis/Feedback-September/results/existing_disk_min10_v5_20833/memory/object_all_features/seed_42/rf/native_shap/fold_6/worker.log'),6.0
+memory,object_all_features,42.0,Random Forest,failed_shap,RuntimeError('shap worker failed: exit status 1; last_stage=shap_calculation; log=/nfs/fjahiduzzaman/thesis/Feedback-September/results/existing_disk_min10_v5_20833/memory/object_all_features/seed_42/rf/native_shap/fold_7/worker.log'),7.0
+memory,object_all_features,42.0,Random Forest,failed_shap,RuntimeError('shap worker failed: exit status 1; last_stage=shap_calculation; log=/nfs/fjahiduzzaman/thesis/Feedback-September/results/existing_disk_min10_v5_20833/memory/object_all_features/seed_42/rf/native_shap/fold_8/worker.log'),8.0
+memory,object_all_features,42.0,Random Forest,failed_shap,RuntimeError('shap worker failed: exit status 1; last_stage=shap_calculation; log=/nfs/fjahiduzzaman/thesis/Feedback-September/results/existing_disk_min10_v5_20833/memory/object_all_features/seed_42/rf/native_shap/fold_9/worker.log'),9.0
+memory,object_all_features,42.0,Random Forest,failed_shap,RuntimeError('shap worker failed: exit status 1; last_stage=shap_calculation; log=/nfs/fjahiduzzaman/thesis/Feedback-September/results/existing_disk_min10_v5_20833/memory/object_all_features/seed_42/rf/native_shap/fold_10/worker.log'),10.0
+memory,object_all_features,42.0,Random Forest,completed,,
+memory,object_all_features,42.0,SVM (RBF),failed_native_worker,cv worker failed: SIGSEGV (11); last_stage=heldout_permutation; log=/nfs/fjahiduzzaman/thesis/Feedback-September/results/existing_disk_min10_v5_20833/memory/object_all_features/seed_42/svm/native_worker/worker.log,
+memory,object_all_features,42.0,KNN,completed,,
+memory,object_all_features,42.0,Naive Bayes,completed,,
+memory,object_all_features,42.0,XGBoost,completed,,
+memory,object_all_features,42.0,CatBoost,completed,,
+memory,component,,,blocked_invalid_group_identifiers,"{""parent_sha256"": 879, ""sha256"": 0}",
+network,subject_all_features,42.0,Logistic Regression,completed,,
+network,subject_all_features,42.0,Random Forest,completed,,
+network,subject_all_features,42.0,SVM (RBF),completed,,
+network,subject_all_features,42.0,KNN,completed,,
+network,subject_all_features,42.0,Naive Bayes,completed,,
+network,subject_all_features,42.0,XGBoost,completed,,
+network,subject_all_features,42.0,CatBoost,completed,,
+network,broad_primary,,,blocked_missing_broader_input,Existing selected cohort was preserved; excluded families cannot be reconstructed.,
+disk,external_collection,,,not_supplied,,
+memory,external_collection,,,not_supplied,,
+network,external_collection,,,not_supplied,,

@@ -1,0 +1,42 @@
+{
+  "source": "memory",
+  "input_path": "/nfs/fjahiduzzaman/thesis/Feedback-September/memory_dataset_preprocessed_high_accuracy.xlsx",
+  "sha256_before": "c35c85e2feb9ede463ebbb1e6649d8288ba8f204e10013f7288f028a6626f7c1",
+  "rows": 2014,
+  "families": 23,
+  "input_columns": [
+    "sha256",
+    "normalized_path",
+    "command_line",
+    "parent_sha256",
+    "total_processes",
+    "created_files",
+    "registry",
+    "modules_count",
+    "target"
+  ],
+  "input_rows": 2014,
+  "input_families": 23,
+  "rows_removed": 0,
+  "families_removed": [],
+  "duplicate_rows_retained": 0,
+  "cohort_policy": "existing_workbook_all_rows_and_exact_labels",
+  "identifier_audit": {
+    "sha256": {
+      "valid_rows": 2014,
+      "invalid_rows": 0,
+      "unique_valid_hashes": 1630,
+      "valid_hashes_with_multiple_context_labels": 0
+    },
+    "parent_sha256": {
+      "valid_rows": 1135,
+      "invalid_rows": 879,
+      "unique_valid_hashes": 701,
+      "valid_hashes_with_multiple_context_labels": 0
+    }
+  },
+  "numeric_values_coerced_to_missing_in_model_only": {
+    "total_processes": 0,
+    "modules_count": 0
+  }
+}
